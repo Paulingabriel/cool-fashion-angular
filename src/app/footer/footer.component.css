@@ -1,0 +1,118 @@
+.article1 .container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.article1 button{
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(215, 212, 212);
+}
+footer {
+    background-color: black;
+    color: gray;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+footer h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer span{
+    color: white;
+}
+footer h5{
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+footer .p1{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+footer .p2{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+footer  p{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+footer .texte{
+    padding-top: 3rem;
+}
+footer .texte .p1{
+    margin-top: -10px;
+}
+footer i{
+    margin-right: 1rem;
+}
+footer .col-sm-3 p{
+    margin-top: -10px;
+}
+footer i{
+    font-size: 1rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+footer .icon{
+    margin-top: ;
+}
+
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    .article1 .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -4rem;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px){
+    .article1 .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -6rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .article1 .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -10rem;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+    .article1 .container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        margin-top: -12rem;
+    }
+}
+
+@media all and (max-width: 576px){
+    .article1 .container{
+        display: flex;
+        justify-content: center;
+        bottom: ;
+    }
+}
+
+footer{
+        background-color: black;
+        color: gray;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+}

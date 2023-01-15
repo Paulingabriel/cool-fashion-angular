@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+article{
+    margin-top: 12rem;
+    border:;
+}
+.title{
+    margin-bottom: 4rem;
+}
+.links{
+    border: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links li{
+    padding: 0.3rem 1rem;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    color: silver;
+    border-left: 1px solid silver;
+}
+h2{
+    font-weight: bold;
+}
+article img{
+    width: 100%;
+    object-fit: ;
+    overflow: ;
+    height: 100%;
+}
+h5{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.btn{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: gray;
+    margin-top: 8rem;
+    text-decoration: none;
+    padding: 0;
+
+}
+.col-md-3{
+    object-fit: cover;
+    overflow: clip;
+}
+
+@media all and (min-width: 1200px) and (max-width: 1400px){
+    .links li{
+        padding: 0.3rem 2rem;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'poppins', sans-serif;
+        color: silver;
+        border-left: 0;
+    }
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 4rem;
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    h5{
+        font-weight: 700;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1200px){
+    .links li{
+        padding: 0.3rem 1rem;
+    }
+    h5{
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-size: ;
+    }
+    p{
+        font-size: ;
+    }
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 4rem;
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    article{
+        margin-top: 10rem;
+        border:;
+    }
+
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+    .links li{
+        padding: 0.3rem 3rem;
+    }
+    ul{
+        padding: 0;
+    }
+    .btn{
+        font-size: 0.5rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 0;
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    h5{
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .links li{
+        padding: 0.3rem 1rem;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'poppins', sans-serif;
+        color: silver;
+        border-left: 1px solid silver;
+    }
+    article{
+        margin-top: 8rem;
+        border:;
+    }
+}
+@media all and (min-width: 576px) and (max-width: 768px){
+
+    h5{
+        font-size: 1rem;
+        font-weight: 900;
+        margin-top: 2rem;
+    }
+
+    ul{
+        padding: 0;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 0;
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    .links li{
+        padding: 0.3rem 1rem;
+        list-style: none;
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: 'poppins', sans-serif;
+        color: silver;
+        border-bottom: 1px solid silver;
+        border-left: 0;
+    }
+    article{
+        margin-top: 8rem;
+        border:;
+    }
+}
+@media all and (max-width: 576px){
+    .links li{
+        padding: 0.3rem 0.2rem;
+        margin-right: 0.5rem;
+        font-size: 0.5rem;
+        border-bottom: 1px solid silver;
+        border-left: 0;
+    }
+    ul{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .btn{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: gray;
+        margin-top: 0;
+        text-decoration: none;
+        padding: 0;
+    
+    }
+    article{
+        margin-top: 6rem;
+        border:;
+    }
+    h5{
+        font-size: 1rem;
+        font-weight: 900;
+        margin-top: 2rem;
+    }
+}

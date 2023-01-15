@@ -1,0 +1,39 @@
+<header class="shadow-lg">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-xl-3 col-sm-3  logo-column">
+          <div class="logo">
+            <span>Little</span>
+                  Fashion
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-sm-7 links-column">
+          <div class="liens">
+            <ul class="list" [class.active]="menuVariable">
+              <li>Home</li>
+              <li>Story</li>
+              <li>Products</li>
+              <li>FAQs</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-sm-2 icons-column">
+          <div class="icons float-end">
+            <i class="bi bi-person"></i>
+            <i class="bi bi-bag"></i>
+          </div>
+        </div>
+
+        <button type="button" aris-label="toggle curtain navigation" class="nav-toggler" [class.active]="menuVariable" (click)="openMenu()">
+          <span class="line l1"></span>
+          <span class="line l2"></span>
+          <span class="line l3"></span>
+        </button>
+
+      </div>
+    </div>
+</header>

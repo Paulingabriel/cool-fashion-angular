@@ -1,0 +1,210 @@
+header{
+    padding: 1rem 2rem;
+    border: ;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    z-index: 10;
+}
+
+.liens>ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: ;
+}
+header .liens ul>li{
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+
+header .icons i{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+header .icons-column{
+    border: ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header .logo-column{
+    border:  ;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+header .logo-column span{
+    color: orangered;
+    font-weight: 800;
+}
+header .links-column{
+    border: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: 500;
+}
+.nav-toggler{
+    opacity: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 20px;
+    right: 1.25rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 1rem;
+    width: 2.5rem;
+}
+.line{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+    background-color: #000;
+}
+.l1{
+    transform: translateY(-10px);
+}
+.l3{
+    transform: translateY(10px);
+}
+.nav-toggler.active .l1{
+    transform: translateY(0px) rotate(135deg);
+}
+.nav-toggler.active .l2{
+    opacity: 0;
+}
+.nav-toggler.active .l3{
+    transform: translateY(0px) rotate(-135deg);
+}
+
+
+
+
+
+
+
+
+@media all and (min-width: 992px) and (max-width: 1200px){
+    header .liens ul>li{
+        margin: 0 1rem;
+        font-size: 1.2rem;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+
+    header .liens ul>li{
+        margin: 0 1rem;
+        font-size: 0.8rem;
+    }
+    header .logo-column{
+        font-size: 1rem;
+    }
+    header .icons i{
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 768px){
+    header .liens ul>li{
+        margin: 0 0.8rem;
+        font-size: 0.8rem;
+    }
+    header .logo-column{
+        font-size: 0.8rem;
+    }
+    header .icons i{
+        font-size: 0.8rem;
+    }
+    header{
+        padding: 1rem 0;
+        border: ;
+    }
+}
+
+@media all and (max-width: 576px){
+    header .icons-column{
+        display: none;
+    }
+    header .links-column{
+        display: block;
+        color: gray;
+        font-weight: 500;
+    }
+    .liens>ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        align-items: center;
+        border: ;
+        position: fixed;
+        top: 3.5rem;
+        right: 0;
+        width: 70vw;
+        z-index: 100000;
+        transform: translateX(-100vh);
+    }
+    header .liens ul>li{
+        font-size: 0.6rem;
+        text-align: end;
+        padding: 0.8rem 1.5rem;
+        width: 100%;
+        border-bottom: 1px solid #eae9e9;
+        background-color: white;
+    }
+    header{
+        padding: 0;
+        border: ;
+        height: 3.5rem;
+        box-shadow:;
+        border-bottom: silver;
+        z-index: 1;
+    }
+    header .logo-column{
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+    header ul.active{
+        transform: translateX(0px)!important;
+        transition: transform 1s ;
+     }
+     .nav-toggler{
+        opacity: 1;
+        position: fixed;
+        z-index: 10;
+        top: 25px;
+        right: 1.25rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        height: 0.5rem;
+        width: 1.5rem;
+    }
+    .l1{
+        transform: translateY(-5px);
+    }
+    .l3{
+        transform: translateY(5px);
+    }
+}
+
